@@ -1,3 +1,5 @@
+<img width="800" alt="image" height="400" src=trello_board.gif/>
+
 ## 📋 Sobre
 <p>
  Interface de arrastar e soltar com Vue Draggable</p>
