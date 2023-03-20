@@ -26,5 +26,8 @@ $ npm install
 $ npm run dev
 ```  
 
+### Demo
+https://trello-board-nuxt3-eta.vercel.app/
+
 <p align="center" dir="auto">Feito com <g-emoji class="g-emoji" alias="hearts" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2665.png">♥</g-emoji>
   por Sol Oliveira :tulip:</p>
