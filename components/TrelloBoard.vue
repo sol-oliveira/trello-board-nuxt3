@@ -5,7 +5,7 @@ import { nanoid } from 'nanoid'
 import draggable from 'vuedraggable'
 import type { Column, Task } from '../types';
 
-const columns = ref<Column[]>([
+const columns = useLocalStorage<Column[]>("trelloBoard",[
     {
         id: nanoid(),
         title: 'Backlog',
@@ -46,7 +46,7 @@ function createColumn() {
     tasks: [],
   }
   columns.value.push(column)
-  
+
   nextTick(() => {
         (document.querySelector('.column:last-of-type .title-input') as HTMLInputElement).focus()
     })
