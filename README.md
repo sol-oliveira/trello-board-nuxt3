@@ -1,42 +1,28 @@
-# Nuxt 3 Minimal Starter
+## 📋 Sobre
+<p>
+ Interface de arrastar e soltar com Vue Draggable</p>
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+<p><i>Desenvolvido em Vue Scholl.</i></p>
 
-## Setup
+### 🛠 Tecnologias
 
-Make sure to install the dependencies:
+- [Nuxt](https://nuxt.com/)
+- [Drag-and-Drop](https://sortablejs.github.io/vue.draggable.next/#/simple)
+- [Tailwind nuxtjs](https://tailwindcss.nuxtjs.org/)
 
-```bash
-# yarn
-yarn install
 
-# npm
-npm install
-
-# pnpm
-pnpm install
-```
-
-## Development Server
-
-Start the development server on http://localhost:3000
+### 🖥️ Rodando o Frond End 
 
 ```bash
-npm run dev
-```
+# Clonar repositório
+$ git clone https://github.com/sol-oliveira/trello-board-nuxt3.git
 
-## Production
+# Instale as dependências
+$ npm install
 
-Build the application for production:
+# Execute a aplicação em modo de desenvolvimento
+$ npm run dev
+```  
 
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+<p align="center" dir="auto">Feito com <g-emoji class="g-emoji" alias="hearts" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2665.png">♥</g-emoji>
+  por Sol Oliveira :tulip:</p>
