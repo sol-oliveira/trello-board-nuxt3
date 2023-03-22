@@ -1,5 +1,5 @@
 <template>
-  <div class="p-10 h-[100vh] bg-teal-600 overflow-auto">
+  <div class="p-10 h-[100vh] overflow-auto">
     <h1 class="text-4xl text-white flex items-center mb-10">
       <img width="200"
       class="mr-3"

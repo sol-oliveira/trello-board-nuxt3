@@ -2,4 +2,5 @@
 export default defineNuxtConfig({
     modules: ["@nuxtjs/tailwindcss", "@vueuse/nuxt"],
     ssr: false,
+    css: ['@/assets/styles/main.css',]
   })

@@ -1,0 +1,22 @@
+::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    display: none;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color:rgb(229 231 235 );
+    border-radius: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: gray;
+  }
+
+
+body {
+  @apply bg-teal-600;
+  -webkit-font-smoothing: antialiased; 
+}
