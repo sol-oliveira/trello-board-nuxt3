@@ -27,6 +27,7 @@ function createTask(e: Event) {
       v-model="title"
       @keydown.tab="createTask"
       @keyup.enter="createTask"
+      @focusout="createTask"
       class="focus:bg-white overflow-hidden focus:shadow resize-none rounded w-full border-none bg-transparent p-2 cursor-pointer"
       :class="{
         'h-7': !focused,
@@ -34,7 +35,7 @@ function createTask(e: Event) {
       }"
       style="outline: none !important"
       @focus="focused = true"
-      @blur="focused = false"
+      @blur="focused = false"     
       :placeholder="!focused ? '+ Add A Card' : 'Enter a title for this card'"/>
   </div>
 </template>
